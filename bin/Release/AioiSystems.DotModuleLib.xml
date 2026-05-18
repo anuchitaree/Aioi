@@ -1,0 +1,1092 @@
+﻿<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AioiSystems.DotModuleLib</name>
+    </assembly>
+    <members>
+        <member name="T:AioiSystems.DotModule.Barcode.CodeTypes">
+            <summary>
+              Defines the barcode type.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CodeTypes.EanJan13">
+            <summary>
+              Specifies EAN-13/JAN-13.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CodeTypes.EanJan8">
+            <summary>
+              Specifies EAN-8/JAN-8.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CodeTypes.UPCA">
+            <summary>
+              Specifies UPC-A.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CodeTypes.UPCE">
+            <summary>
+              Specifies UPC-E.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CodeTypes.ITF">
+            <summary>
+              Specifies ITF.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CodeTypes.CodaBar">
+            <summary>
+              Specifies CodaBar(NW-7).
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CodeTypes.Code39">
+            <summary>
+              Specifies CODE-39.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CodeTypes.Code128">
+            <summary>
+              Specifies CODE-128.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CodeTypes.EAN128">
+            <summary>
+              Specifies EAN-128(GS1-128).
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CodeTypes.QRCode">
+            <summary>
+              Specifies the QR code.
+            </summary>
+        </member>
+        <member name="T:AioiSystems.DotModule.Barcode.QRModels">
+            <summary>
+              Defines the QR code model.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRModels.QRModel1">
+            <summary>
+              Specifies Model 1.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRModels.QRModel2">
+            <summary>
+              Specifies Model 2.
+            </summary>
+        </member>
+        <member name="T:AioiSystems.DotModule.Barcode.CheckPatterns">
+            <summary>
+              Defines the method of calculating check digit.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CheckPatterns.Md16">
+            <summary>
+              Specifies Modulus 16.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CheckPatterns.Md10W2">
+            <summary>
+              Specifies Modulus 10/Weight 2.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CheckPatterns.Md10W3">
+            <summary>
+              Specifies Modulus10/Weight 3.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CheckPatterns.Md11">
+            <summary>
+              Specifies Modulus 11.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CheckPatterns.Md11W">
+            <summary>
+              Specifies weighted Modulus 11.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CheckPatterns.DR7">
+            <summary>
+              Specifies 7 check DR.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CheckPatterns.Rz">
+            <summary>
+              Specifies Runes.
+            </summary>
+        </member>
+        <member name="T:AioiSystems.DotModule.Barcode.CodeSets">
+            <summary>
+              Defines the code set in CODE-128.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CodeSets.CodeSetA">
+            <summary>
+              Specifies code set A.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CodeSets.CodeSetB">
+            <summary>
+              Specifies code set B.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.CodeSets.CodeSetC">
+            <summary>
+              Specifies code set C.
+            </summary>
+        </member>
+        <member name="T:AioiSystems.DotModule.Barcode.QRTypes">
+            <summary>
+              Defines the QR code type.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRAuto">
+            <summary>
+              Specifies Auto.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType1">
+            <summary>
+              Specifies Type 1.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType2">
+            <summary>
+              Specifies Type 2.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType3">
+            <summary>
+              Specifies Type 3.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType4">
+            <summary>
+              Specifies Type 4.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType5">
+            <summary>
+              Specifies Type 5.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType6">
+            <summary>
+              Specifies Type 6.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType7">
+            <summary>
+              Specifies Type 7.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType8">
+            <summary>
+              Specifies Type 8.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType9">
+            <summary>
+              Specifies Type 9.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType10">
+            <summary>
+              Specifies Type 10.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType11">
+            <summary>
+              Specifies Type 11.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType12">
+            <summary>
+              Specifies Type 12.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType13">
+            <summary>
+              Specifies Type 13.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType14">
+            <summary>
+              Specifies Type 14.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType15">
+            <summary>
+              Specifies Type 15.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType16">
+            <summary>
+              Specifies Type 16.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType17">
+            <summary>
+              Specifies Type 17.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType18">
+            <summary>
+              Specifies Type 18.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType19">
+            <summary>
+              Specifies Type 19.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType20">
+            <summary>
+              Specifies Type 20.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType21">
+            <summary>
+              Specifies Type 21.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType22">
+            <summary>
+              Specifies Type 22.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType23">
+            <summary>
+              Specifies Type 23.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType24">
+            <summary>
+              Specifies Type 24.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType25">
+            <summary>
+              Specifies Type 25.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType26">
+            <summary>
+              Specifies Type 26.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType27">
+            <summary>
+              Specifies Type 27.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType28">
+            <summary>
+              Specifies Type 28.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType29">
+            <summary>
+              Specifies Type 29.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType30">
+            <summary>
+              Specifies Type 30.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType31">
+            <summary>
+              Specifies Type 31.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType32">
+            <summary>
+              Specifies Type 32.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType33">
+            <summary>
+              Specifies Type 33.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType34">
+            <summary>
+              Specifies Type 34.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType35">
+            <summary>
+              Specifies Type 35.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType36">
+            <summary>
+              Specifies Type 36.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType37">
+            <summary>
+              Specifies Type 37.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType38">
+            <summary>
+              Specifies Type 38.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType39">
+            <summary>
+              Specifies Type 39.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRTypes.QRType40">
+            <summary>
+              Specifies Type 40.
+            </summary>
+        </member>
+        <member name="T:AioiSystems.DotModule.Barcode.QRLevels">
+            <summary>
+              Defines the error correction level of the QR code.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRLevels.QRLevelL">
+            <summary>
+              Specifies L (Restoration rate 7%).
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRLevels.QRLevelM">
+            <summary>
+              Specifies M (Restoration rate 15%).
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRLevels.QRLevelQ">
+            <summary>
+              Specifies Q (Restoration rate 25%).
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.QRLevels.QRLevelH">
+            <summary>
+              Specifies H (Restoration rate 30%).
+            </summary>
+        </member>
+        <member name="T:AioiSystems.DotModule.ImageInfo">
+            <summary>
+              Provides the function to retain the image data for the dot module.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.ImageInfo.#ctor">
+            <summary>
+              Initializes a new instance.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.ImageInfo.#ctor(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+              Initializes a new instance.
+            </summary>
+            <param name="image">Specifies the image data for the dot module in a byte array.</param>
+            <param name="width">Specifies the width of image data in pixels.</param>
+            <param name="height">Specifies the height of image data in pixels.</param>
+        </member>
+        <member name="M:AioiSystems.DotModule.ImageInfo.GetImage">
+            <summary>
+              Gets the image data in byte array.
+            </summary>
+            <returns>Returns a byte array that represents the status of each dot.</returns>
+        </member>
+        <member name="P:AioiSystems.DotModule.ImageInfo.Width">
+            <summary>
+              Gets or sets the width of image data in pixels.
+            </summary>
+        </member>
+        <member name="P:AioiSystems.DotModule.ImageInfo.Height">
+            <summary>
+              Gets or sets the height of image data in pixels.
+            </summary>
+        </member>
+        <member name="T:AioiSystems.DotModule.Barcode.QRCode">
+            <summary>
+              Defines the QR code setting.
+            </summary>
+        </member>
+        <member name="T:AioiSystems.DotModule.Barcode.BarcodeBase">
+            <summary>
+            Implements the basic functions to retain the barcode data.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.Barcode.BarcodeBase.#ctor">
+            <summary>
+            Initializes a new instance.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.Barcode.BarcodeBase.GetNativeValue">
+            <summary>
+            Gets the barcode character string of the output barcode.
+            </summary>
+            <returns>Returns the barcode character string.</returns>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.BarcodeBase.CodeType">
+            <summary>
+              Gets the barcode type.
+            </summary>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.BarcodeBase.BarcodeData">
+            <summary>
+              Gets or sets the barcode data.
+            </summary>
+            <remarks>For CODE128/EAN-128, if you want to include a tilde “~” in a code, use 2 tildes together, e.g., ~~.
+            </remarks>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.BarcodeBase.BarcodeDataVisibled">
+            <summary>
+              Gets or sets to display / not to display the barcode.
+            </summary>
+            <remarks>The default value is True. </remarks>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.BarcodeBase.Font">
+            <summary>
+              Gets or sets the barcode data display font.
+            </summary>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.BarcodeBase.Height">
+            <summary>
+              Sets the height of the barcode in pixels.
+            </summary>
+            <remarks>
+              The default value is 50. The width is automatically set. For the QR code, 
+              the size is about size of the setup value. Even if the property value is the same, 
+              the size will vary because of the data size, error correction level, and the QR code pattern number.
+            </remarks>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.BarcodeBase.RotateFlip">
+            <summary>
+              Sets or gets the rotate and flip status.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.Barcode.QRCode.#ctor">
+            <summary>
+              Initializes a new instance.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.Barcode.QRCode.GetNativeValue">
+            <summary>
+              Gets the barcode character string of the output barcode.
+            </summary>
+            <returns>Returns the barcode character string.</returns>
+            <remarks>In the case of the QR code, the value of the BarcodeData property is returned as is.</remarks>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.QRCode.Model">
+            <summary>
+              Specifies the model.
+            </summary>
+            <remarks>The default value is Model 2.</remarks>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.QRCode.QRType">
+            <summary>
+              Gets or sets the type.
+            </summary>
+            <remarks>
+              The default value is Auto (QRTypes.QRAuto). The range you can specify will differ depending on the Model property setting.
+              <list type="bullet">
+            <item><description>For Model 1, it is Auto(QRTypes.QRAuto) or 1(QRTypes.QRType1)～14(QRTypes.QRType14).</description></item>
+            <item><description>For Model 2, it is Auto(QRTypes.QRAuto) or 1(QRTypes.QRType1)～40(QRTypes.QRType40).</description></item>
+            </list>
+            </remarks>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.QRCode.CorrectionLevel">
+            <summary>
+              Gets or sets the error correction level.
+            </summary>
+            <remarks>The default value is M: Restoration level is 15%(QRLevels.QRLevelM)).</remarks>
+        </member>
+        <member name="T:AioiSystems.DotModule.Barcode.EanJan">
+            <summary>
+              Defines the EAN/JAN setting.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.Barcode.EanJan.#ctor">
+            <summary>
+              Initializes a new instance.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.Barcode.EanJan.GetNativeValue">
+            <summary>
+              Gets the barcode character string of the output barcode.
+            </summary>
+            <returns>Returns the barcode character string.</returns>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.EanJan.EanJanType">
+            <summary>
+              Gets or sets the number of digits.
+            </summary>
+            <remarks>The default value is 13 digits (EanJanTypes.EanJan13).</remarks>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.EanJan.CheckDigit">
+            <summary>
+              Gets or sets whether to automatically calculate the check digit or not.
+            </summary>
+            <remarks>
+              The default value is False. If it is True, the check digit calculation result is added
+              when specifying the BarcodeData property. If a 13-digit data is specified to the BarcodeData property, 
+              the last digit will be replaced.
+            </remarks>
+        </member>
+        <member name="T:AioiSystems.DotModule.Barcode.EanJan.EanJanTypes">
+            <summary>
+              Defines the EAN/JAN format.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.EanJan.EanJanTypes.EanJan8">
+            <summary>
+              Specifies EAN-8/JAN-8.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.EanJan.EanJanTypes.EanJan13">
+            <summary>
+              Specifies EAN-13/JAN-13.
+            </summary>
+        </member>
+        <member name="T:AioiSystems.DotModule.Barcode.ITF">
+            <summary>
+              Defines the ITF setting.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.Barcode.ITF.#ctor">
+            <summary>
+              Initializes a new instance.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.Barcode.ITF.GetNativeValue">
+            <summary>
+              Gets the barcode character string of the output barcode.
+            </summary>
+            <returns>Returns the barcode character string.</returns>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.ITF.CheckDigit">
+            <summary>
+              Gets or sets whether to automatically calculate the check digit or not.
+            </summary>
+            <remarks>
+              The default value is False. If True, the check digit calculation result is added to the value specified 
+              in the BarcodeData property. Also, if the number of digits of BarcodeData plus the check digit result 
+              in an odd number, 0 is added to the left. If False is specified and the number of digits set to the 
+              BarcodeData property is an odd number, 0 is added to the left.
+            </remarks>
+        </member>
+        <member name="T:AioiSystems.DotModule.DisplayPainter">
+            <summary>
+              Provides functions to create image data to be displayed on the dot module display.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.GetTextImage(System.String,System.Drawing.Font,System.Boolean,System.Drawing.RotateFlipType)">
+            <summary>
+              Gets the image data from the text.
+            </summary>
+            <param name="text">Specifies the text that you want to get as an image.</param>
+            <param name="font">Specifies the font. </param>
+            <param name="invert">Specifies True for a reverse display of white/black; to not reverse, specify False.</param>
+            <param name="rotateFlip">Specifies a way to rotate and flip.</param>
+            <returns>An ImageInfo object that includes the image data you created.</returns>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.GetTextImage(System.String,System.Drawing.Font,System.Boolean)">
+            <summary>
+              Gets the image data from text.
+            </summary>
+            <param name="text">Specifies the text that you want to get as an image.</param>
+            <param name="font">Specifies the font.</param>
+            <param name="invert">Specifies True for a reverse display of white/black; to not reverse, specify False.</param>
+            <returns>An ImageInfo object that includes the image data you created.</returns>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.GetTextImage(System.String,System.Drawing.Font)">
+            <summary>
+              Gets the image data from text.
+            </summary>
+            <param name="text">Specifies the text that you want to get as an image.</param>
+            <param name="font">Specifies the font.</param>
+            <returns>An ImageInfo object that includes the image data you created.</returns>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.GetImage(System.Drawing.Bitmap,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Drawing.RotateFlipType)">
+            <summary>
+              Gets the image data form a Bitmap object.
+            </summary>
+            <param name="bitmap">Specifies the Bitmap object that you want to get as an image data.</param>
+            <param name="width">Specifies the width of the image data.  If you specify a different size than the original size, the image will enlarge or shrink.</param>
+            <param name="height">Specifies the height of the image data. If you specify a different size than the original size, the image will enlarge or shrink.</param>
+            <param name="dither">Specify True if you are dithering when changing to a white/black image.</param>
+            <param name="invert">Specify True for a white/black reverse display. To not reverse, specify False.</param>
+            <param name="rotateFlip">Specifies a way to rotate and flip the image.</param>
+            <returns>An ImageInfo object that includes the image data you created.</returns>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.GetImage(System.Drawing.Bitmap,System.Int32,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+              Gets the image data from the Bitmap object.
+            </summary>
+            <param name="bitmap">Specifies the Bitmap object that you want to get as an image data.</param>
+            <param name="width">Specifies the width of the image data.  If you specify a different size than the original size, the image will enlarge or shrink.</param>
+            <param name="height">Specifies the height of the image data. If you specify a different size than the original size, the image will enlarge or shrink.</param>
+            <param name="dither">Specify True if you are dithering when changing to a white/black image.</param>
+            <param name="invert">Specify True for a white/black reverse display. To not reverse, specify False.</param>
+            <returns>An ImageInfo object that includes the image data you created.</returns>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.GetImage(System.String,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Drawing.RotateFlipType)">
+            <summary>
+              Gets the image data from an image file.
+            </summary>
+            <param name="filename">Specifies the absolute path of image file.</param>
+            <param name="width">Specifies the width of the image data. If you specify a different size than the original size, the image will enlarge or shrink.</param>
+            <param name="height">Specifies the height of the image data. If you specify a different size than the original size, the image will enlarge or shrink.</param>
+            <param name="dither">Specify True if you are dithering when changing to a white/black image.</param>
+            <param name="invert">Specify True for a white/black reverse display. To not reverse, specify False.</param>
+            <param name="rotateFlip">Specifies a way to rotate and flip.</param>
+            <returns>An ImageInfo object that includes the image data you created.</returns>
+            <remarks>Image files that can be specified are BMP, GIF, EXIG, JPG, PNG, as well as TIFF.</remarks>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.GetImage(System.String,System.Int32,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+              Gets the image data from an image file.
+            </summary>
+            <param name="filename">Specifies the absolute path of image file.</param>
+            <param name="width">Specifies the width of the image data. If you specify a different size than the original size, the image will enlarge or shrink.</param>
+            <param name="height">Specifies the height of the image data. If you specify a different size than the original size, the image will enlarge or shrink.</param>
+            <param name="dither">Specify True if you are dithering when changing to a white/black image.</param>
+            <param name="invert">Specify True for a white/black reverse display. To not reverse, specify False.</param>
+            <returns>An ImageInfo object that includes the image data you created.</returns>
+            <remarks>Image files that can be specified are BMP, GIF, EXIG, JPG, PNG, as well as TIFF.</remarks>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.GetBarcode(AioiSystems.DotModule.Barcode.BarcodeBase)">
+            <summary>
+              Gets the barcode image data.
+            </summary>
+            <param name="barcodeInfo">Specifies the barcode information object.</param>
+            <returns>An ImageInfo object that includes the image data you created.</returns>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.GetRectangle(System.Int32,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+              Creates a rectangle and gets the image data.
+            </summary>
+            <param name="width">Specifies the width of a rectangle in pixels.</param>
+            <param name="height">Specifies the height of a rectangle in pixels.</param>
+            <param name="border">Specifies the thickness of the border in pixels. The border is painted black and inside is white. If the thickness is specified with 0, it will be filled with black.</param>
+            <param name="invert">Specify True to reverse white/black.  To not reverse, specify False.</param>
+            <returns>An ImageInfo object that includes the image you created. </returns>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.GetEllipse(System.Int32,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+              Creates an ellipse and gets the image data.
+            </summary>
+            <param name="width">Specifies the width of an ellipse in pixels.</param>
+            <param name="height">Specifies the height of the ellipse in pixels.</param>
+            <param name="border">Specifies the thickness of the border in pixels. The border is painted black and inside is white. If the thickness is specified with 0, it will be filled with black.</param>
+            <param name="invert">Specify True to reverse white/black. To not reverse, specify False.</param>
+            <returns>An ImageInfo object that includes the image data you created.</returns>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.GetLine(System.Int32,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+              Creates a straight line and gets the image data.
+            </summary>
+            <param name="width">Specifies the width of a rectangle for the straight diagonal line.</param>
+            <param name="height">Specifies the height of the rectangle for the straight diagonal line. If a positive value is specified, the straight line goes toward the bottom right; if a negative value is specified, the straight line goes toward the top right. (when the width is positive)</param>
+            <param name="size">Specifies the thickness of the line in pixels.</param>
+            <param name="invert">Specifies True for a white/black reverse display. To not reverse, specify False.</param>
+            <returns>An ImageInfo object that includes the image data you created.</returns>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.#ctor">
+            <summary>
+              Initializes a new instance.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.Dispose">
+            <summary>
+              Executes the release and reset of unmanaged resource associated with the application-defined tasks.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.ClearDisplay">
+            <summary>
+              Clears the logic display image.
+            </summary>
+            <remarks>After clearing, it is filled with white.</remarks>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.GetLocalDisplayImage">
+            <summary>
+              Gets the image data of the logic display.
+            </summary>
+            <remarks>The data obtained with this method is specified to the image data of the XA command.</remarks>
+            <returns>An ImageInfo object that includes the image data of the logic display.</returns>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.PutText(System.String,System.Drawing.Font,System.Int32,System.Int32,System.Boolean,System.Drawing.RotateFlipType)">
+            <summary>
+              Arranges the character string on to the logic display.
+            </summary>
+            <param name="text">Specifies the text that you want to display as an image.</param>
+            <param name="font">Specifies the font.</param>
+            <param name="x">Specifies the x coordinate to arrange on the logic display.</param>
+            <param name="y">Specifies the y coordinate to arrange on the logic display.</param>
+            <param name="invert">Specify True for a white/black reverse display. To not reverse, specify False.</param>
+            <param name="rotateFlip">Specifies a way to rotate and flip the image.</param>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.PutText(System.String,System.Drawing.Font,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+              Arranges the character string on to the logic display.
+            </summary>
+            <param name="text">Specifies the text that you want to display as an image.</param>
+            <param name="font">Specifies the font.</param>
+            <param name="x">Specifies the x coordinate to arrange on the logic display.</param>
+            <param name="y">Specifies the y coordinate to arrange on the logic display.</param>
+            <param name="invert">Specify True for a white/black reverse display. To not reverse, specify False.</param>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.PutText(System.String,System.Drawing.Font,System.Int32,System.Int32)">
+            <summary>
+              Arranges the character string on to the logic display.
+            </summary>
+            <param name="text">Specifies the text that you want to display as an image.</param>
+            <param name="font">Specifies the font.</param>
+            <param name="x">Specifies the x coordinate to arrange on the logic display.</param>
+            <param name="y">Specifies the y coordinate to arrange on the logic display.</param>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.PutImage(System.Drawing.Bitmap,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Drawing.RotateFlipType)">
+            <summary>
+              Specifies the Bitmap object and arrange on the logic display.
+            </summary>
+            <param name="bmp">Specifies the Bitmap object that you are arranging.</param>
+            <param name="x">Specifies the x coordinate for arranging.</param>
+            <param name="y">Specifies the y coordinate for arranging.</param>
+            <param name="width">Specifies the width of the image that you are arranging. If you specify a different size than the original size, the image will enlarge or shrink.</param>
+            <param name="height">Specifies the height of the image you are arranging.  If you specify a different size than the original size, the image will enlarge or shrink.</param>
+            <param name="dither">Specify True if you are dithering when changing to a white/black image.</param>
+            <param name="invert">Specify True for a white/black reverse display. To not reverse, specify False.</param>
+            <param name="rotateFlip">Specifies a way to rotate and flip.</param>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.PutImage(System.Drawing.Bitmap,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+              Specifies the Bitmap object and arrange on the logic display.
+            </summary>
+            <param name="bmp">Specifies the Bitmap object that you are arranging.</param>
+            <param name="x">Specifies the x coordinate for arranging.</param>
+            <param name="y">Specifies the y coordinate for arranging.</param>
+            <param name="width">Specifies the width of the image that you are arranging. If you specify a different size than the original size, the image will enlarge or shrink.</param>
+            <param name="height">Specifies the height of the image you are arranging.  If you specify a different size than the original size, the image will enlarge or shrink.</param>
+            <param name="dither">Specify True if you are dithering when changing to a white/black image.</param>
+            <param name="invert">Specify True for a white/black reverse display. To not reverse, specify False.</param>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.PutImage(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Drawing.RotateFlipType)">
+            <summary>
+              Specify the image file and arrange on the logic display.
+            </summary>
+            <param name="filename">Specifies the absolute path of the image file you are arranging.</param>
+            <param name="x">Specifies the x coordinate for arranging.</param>
+            <param name="y">Specifies the y coordinate for arranging.</param>
+            <param name="width">Specifies the width of the image that you are arranging. If you specify a different size than the original size, the image will enlarge or shrink.</param>
+            <param name="height">Specifies the height of the image you are arranging.  If you specify a different size than the original size, the image will enlarge or shrink.</param>
+            <param name="dither">Specify True if you are dithering when changing to a white/black image.</param>
+            <param name="invert">Specify True for a white/black reverse display. To not reverse, specify False.</param>
+            <param name="rotateFlip">Specifies a way to rotate and flip.</param>
+            <remarks>Image files that can be specified are BMP, GIF, EXIG, JPG, PNG, as well as TIFF.</remarks>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.PutImage(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+              Specify the image file and arrange on the logic display.
+            </summary>
+            <param name="filename">Specifies the absolute path of the image file you are arranging.</param>
+            <param name="x">Specifies the x coordinate for arranging.</param>
+            <param name="y">Specifies the y coordinate for arranging.</param>
+            <param name="width">Specifies the width of the image that you are arranging. If you specify a different size than the original size, the image will enlarge or shrink.</param>
+            <param name="height">Specifies the height of the image you are arranging.  If you specify a different size than the original size, the image will enlarge or shrink.</param>
+            <param name="dither">Specify True if you are dithering when changing to a white/black image.</param>
+            <param name="invert">Specify True for a white/black reverse display. To not reverse, specify False.</param>
+            <remarks>Image files that can be specified are BMP, GIF, EXIG, JPG, PNG, as well as TIFF.</remarks>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.PutBarcode(AioiSystems.DotModule.Barcode.BarcodeBase,System.Int32,System.Int32)">
+            <summary>
+              Arranges the barcode on the logic display.
+            </summary>
+            <param name="barcodeInfo">Specifies the barcode information object.</param>
+            <param name="x">Specifies the x coordinate for arranging the barcode image.</param>
+            <param name="y">Specifies the y coordinate for arranging the barcode image.</param>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.PutLine(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+              Draw a straight line on the logic display.
+            </summary>
+            <param name="x1">Specifies the x coordinate of the start of the straight line.</param>
+            <param name="y1">Specifies the y coordinate of the start of the straight line.</param>
+            <param name="x2">Specifies the x coordinate of the end of the straight line.</param>
+            <param name="y2">Specifies the y coordinate of the end of the straight line.</param>
+            <param name="size">Specifies the thickness of the line in pixels.</param>
+            <param name="invert">Specify True for a white/black reverse display.  To not reverse, specify False.</param>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.PutRectangle(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+              Draw a rectangle on the logic display.
+            </summary>
+            <param name="x">Specifies the x coordinate for arranging.</param>
+            <param name="y">Specifies the y coordinate for arranging.</param>
+            <param name="width">Specifies the width.</param>
+            <param name="height">Specifies the height.</param>
+            <param name="border">Specifies the thickness of the border in pixels.
+             The border line is black and inside is white. If the thickness is specified with 0, it is filled with black.
+            </param>
+            <param name="invert">Specify True for a white/black reverse display. To not reverse, specify False.</param>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.PutEllipse(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+              Arrange an ellipse on the logical display.
+            </summary>
+            <param name="x">Specify the x coordinate for arranging.</param>
+            <param name="y">Specify the y coordinate for arranging.</param>
+            <param name="width">Specifies the width of the ellipse in pixels.</param>
+            <param name="height">Specifies the height of the ellipse in pixels.</param>
+            <param name="border">Specifies the thickness of the border in pixels. It is drawn with a black border line and inside is white. 
+            If the thickness is specified with 0, it is filled with black.</param>
+            <param name="invert">Specify True for a white/black reverse display. To not reverse, specify False.</param>
+        </member>
+        <member name="P:AioiSystems.DotModule.DisplayPainter.Preview">
+            <summary>
+              Gets the Bitmap object for the preview of the logic display.
+            </summary>
+            <remarks>An “x” is drawn on the barcode image; the barcode is drawn only on the dot module display.</remarks>
+        </member>
+        <member name="T:AioiSystems.DotModule.Barcode.UPC">
+            <summary>
+              Defines the UPC setting.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.Barcode.UPC.#ctor">
+            <summary>
+              Initializes a new instance.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.Barcode.UPC.GetNativeValue">
+            <summary>
+              Gets the barcode character string of the output barcode.
+            </summary>
+            <returns>Returns the barcode character string.</returns>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.UPC.CheckDigit">
+            <summary>
+              Gets or sets whether to automatically calculate the check digit.
+            </summary>
+            <remarks>The default value is False. If it is True, the check digit calculation result is added to the data specified with the Barcode Data property.
+            If 12 digits are specified in the BarcodeData property, the last digit will be replaced.
+            </remarks>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.UPC.UpcType">
+            <summary>
+              Gets or specifies the UPC type.
+            </summary>
+            <remarks>The default value is UPC-A(UPCTypes.UPCA).</remarks>
+        </member>
+        <member name="T:AioiSystems.DotModule.Barcode.UPC.UPCTypes">
+            <summary>
+              Defines the UPC format.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.UPC.UPCTypes.UPCA">
+            <summary>
+              Specifies UPC-A.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.Barcode.UPC.UPCTypes.UPCE">
+            <summary>
+              Specifies UPC-E.
+            </summary>
+        </member>
+        <member name="T:AioiSystems.DotModule.Barcode.Code128">
+            <summary>
+              Defines the setting of CODE128.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.Barcode.Code128.#ctor">
+            <summary>
+              Initializes a new instance.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.Barcode.Code128.GetNativeValue">
+            <summary>
+              Gets the barcode character string of the output barcode.
+            </summary>
+            <returns>Returns the barcode character string.</returns>
+            <remarks>In the case of CODE128, control code and check digit will not be included.</remarks>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.Code128.CodeSet">
+            <summary>
+              Gets or sets the code set.
+            </summary>
+            <remarks>
+              The default value is code set B. If a value not in the code set is specified to the BarcodeData property, 
+              the code set is automatically switched. 
+              Example: Code set A was specified but used the lower case “a”:  "(CODE A)A(CODE B)a".
+            </remarks>
+        </member>
+        <member name="T:AioiSystems.DotModule.Barcode.Code39">
+            <summary>
+              Defines CODE-39 setting.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.Barcode.Code39.#ctor">
+            <summary>
+              Initializes a new instance.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.Barcode.Code39.GetNativeValue">
+            <summary>
+              Gets the barcode character string of the output barcode.
+            </summary>
+            <returns>Returns the barcode character string.</returns>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.Code39.CheckDigit">
+            <summary>
+              Gets or sets whether to automatically calculate check digit.
+            </summary>
+            <remarks>The default value is False. If it is True, the check digit calculation result is
+            added to the value specified with the Barcode Data property.</remarks>
+        </member>
+        <member name="T:AioiSystems.DotModule.Barcode.EAN128">
+            <summary>
+              Defines the setting of EAN-128(GS1-128).
+            </summary>
+            <remarks>
+              When specifying a control code, specify in any part of the BarcodeData property with a ~ (tilde) + code name.
+              For example: To switch to CODE-B in the middle: "1234~CODEBABC".
+            </remarks>
+        </member>
+        <member name="M:AioiSystems.DotModule.Barcode.EAN128.#ctor">
+            <summary>
+              Initializes a new instance.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.Barcode.EAN128.GetNativeValue">
+            <summary>
+              Gets the barcode character string of the output barcode.
+            </summary>
+            <returns>Returns the barcode character string.</returns>
+            <remarks>In the case of EAN128(GS1-128), the control code and check digit are excluded.</remarks>
+        </member>
+        <member name="T:AioiSystems.DotModule.Barcode.CodaBar">
+            <summary>
+              Defines the setting information of CodeBar(NW-7).
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.Barcode.CodaBar.#ctor">
+            <summary>
+              Initializes a new instance.
+            </summary>
+        </member>
+        <member name="M:AioiSystems.DotModule.Barcode.CodaBar.GetNativeValue">
+            <summary>
+              Gets the barcode character string of the output barcode.
+            </summary>
+            <returns>Returns the barcode characters.</returns>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.CodaBar.CheckDigit">
+            <summary>
+              Gets or sets whether to automatically calculate check digit or not.
+            </summary>
+            <remarks>The default value is False. 
+            If True, the check digit calculation result is added to the value specified to the Barcode Data property.</remarks>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.CodaBar.StartChar">
+            <summary>
+              Gets or sets the start character.
+            </summary>
+            <remarks>The default value is ‘a’.</remarks>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.CodaBar.StopChar">
+            <summary>
+              Gets or sets the end character.
+            </summary>
+            <remarks>The default value is ‘a’.</remarks>
+        </member>
+        <member name="P:AioiSystems.DotModule.Barcode.CodaBar.CheckPattern">
+            <summary>
+              Gets or sets the check digit calculation method.
+            </summary>
+            <remarks>The default value is modulus 16.</remarks>
+        </member>
+
+        <member name="M:AioiSystems.DotModule.DisplayPainter.#ctor">
+            <summary>
+            Initialize a new instance.
+            </summary>
+            <remarks>Set the logic display size to 200x96, and preview becomes valid.</remarks>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.#ctor(AioiSystems.DotModule.DisplayPainter.DisplaySizeType,System.Boolean)">
+            <summary>
+            Initialize a new instance by specifying the size of the logic display and valid/invalid of preview.
+            </summary>
+            <param name="size">Type of display size.</param>
+            <param name="usePreview">Specify "true" when preview of the logic display is used. Otherwise specify "false".</param>
+            <remarks>When preview is invalid, the processing speed becomes faster than when it is valid.</remarks>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.#ctor(System.Int32,System.Int32,System.Boolean)">
+          <summary>
+            Initialize a new instance by specifying the size of the logic display and valid/invalid of preview.
+          </summary>
+          <param name="width">The width in pixels.</param>
+          <param name="height">The height in pixels.</param>
+          <param name="usePreview">Specify "true" when preview of the logic display is used. Otherwise specify "false".</param>
+        </member>
+        
+        <member name="M:AioiSystems.DotModule.DisplayPainter.SetDisplaySize(AioiSystems.DotModule.DisplayPainter.DisplaySizeType,System.Boolean)">
+            <summary>
+            Set the display size.
+            </summary>
+            <param name="size">Type of display size.</param>
+            <param name="usePreview">Specify "true" when preview of the logic display is used. Otherwise specify "false".</param>
+        </member>
+        <member name="M:AioiSystems.DotModule.DisplayPainter.SetDisplaySize(System.Int32,System.Int32,System.Boolean)">
+          <summary>
+            Set the display size.
+          </summary>
+          <param name="width">The width in pixels.</param>
+          <param name="height">The height in pixels.</param>
+          <param name="usePreview">Specify "true" when preview of the logic display is used. Otherwise specify "false".</param>
+        </member>
+	      <member name="P:AioiSystems.DotModule.DisplayPainter.DisplaySize">
+            <summary>
+            Get the display size.
+            </summary>
+        </member>
+      <member name="P:AioiSystems.DotModule.DisplayPainter.DisplaySizeValue">
+        <summary>
+          Gets the width and height, in pixels, of this display.
+        </summary>
+      </member>
+        <member name="P:AioiSystems.DotModule.DisplayPainter.Preview">
+            <summary>
+            Get the Bitmap object for the preview of the logic display.
+            </summary>
+            <remarks>This is used only when preview is set to valid while creating the instance.
+            It returns null if preview is invalid.
+            An "x" is drawn on the barcode image of preview; but only the barcode will be drawn on the dot module display.</remarks>
+        </member>
+        <member name="T:AioiSystems.DotModule.DisplayPainter.DisplaySizeType">
+            <summary>
+            Represents the display size.
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.DisplayPainter.DisplaySizeType.Size200x96">
+            <summary>
+            2-inch display size (200 x 96).
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.DisplayPainter.DisplaySizeType.Size264x176">
+            <summary>
+            2.7-inch display size (264 x 176).
+            </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.DisplayPainter.DisplaySizeType.Size180x128">
+          <summary>
+            2.6-inch display size (180 x 128)
+          </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.DisplayPainter.DisplaySizeType.Size300x200">
+          <summary>
+            2.9-inch display size (300 x 200)
+          </summary>
+        </member>
+        <member name="F:AioiSystems.DotModule.DisplayPainter.DisplaySizeType.UserDefined">
+          <summary>
+            User defined size
+          </summary>
+        </member>
+    </members>
+</doc>

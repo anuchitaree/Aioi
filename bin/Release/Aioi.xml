@@ -1,0 +1,251 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Aioi
+</name>
+</assembly>
+<members>
+<member name="T:Aioi.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Aioi.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Aioi.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Aioi.FelicaCommand">
+ <summary>
+ Felica command module
+ </summary>
+</member>
+<member name="M:Aioi.FelicaCommand.CreatePacketForWrite(System.Byte[],System.Byte[],System.Boolean,System.Byte[])">
+ <summary>
+ create felica command for writing
+ </summary>
+ <param name="idm"></param>
+ <param name="blockData"></param>
+ <param name="addLength"></param>
+ <returns></returns>
+</member>
+<member name="M:Aioi.FelicaCommand.CreatePacketForRead(System.Byte[],System.Int32,System.Boolean,System.Byte[])">
+ <summary>
+ create felica command for reading
+ </summary>
+ <param name="idm"></param>
+ <param name="blocks"></param>
+ <returns></returns>
+</member>
+<member name="M:Aioi.FelicaCommand.GetBlockData(System.Byte[])">
+ <summary>
+ gets block data from felica response packet
+ </summary>
+ <param name="response"></param>
+ <returns></returns>
+</member>
+<member name="T:Aioi.ACR1252_Adapter">
+ <summary>
+ acr1252 reader overrides
+ </summary>
+</member>
+<member name="M:Aioi.ACR1252_Adapter.Write(System.Byte[],System.Byte[],System.Byte[])">
+ <summary>
+ writes smart tage command
+ </summary>
+ <param name="idm"></param>
+ <param name="command"></param>
+</member>
+<member name="M:Aioi.ACR1252_Adapter.Read(System.Byte[],System.Int32,System.Byte[])">
+ <summary>
+ read smart tag command
+ </summary>
+ <param name="idm"></param>
+ <param name="blocks"></param>
+ <returns></returns>
+</member>
+<member name="M:Aioi.ACR1252_Adapter.Write(System.Byte[],System.Byte[])">
+ <summary>
+ write smart tag command 
+ </summary>
+ <param name="idm"></param>
+ <param name="command"></param>
+</member>
+<member name="M:Aioi.ACR1252_Adapter.Read(System.Byte[],System.Int32)">
+ <summary>
+ read smart tag command
+ </summary>
+ <param name="idm"></param>
+ <param name="blocks"></param>
+ <returns></returns>
+</member>
+<member name="T:Aioi.NfcAdapter">
+ <summary>
+ Default SCL010 Read-Writer
+ </summary>
+</member>
+<member name="P:Aioi.NfcAdapter.RetryCount">
+ <summary>
+ Sets or gets the retry count.
+ </summary>
+</member>
+<member name="M:Aioi.NfcAdapter.OpenCard">
+ <summary>
+ opens touched smart tag
+ </summary>
+</member>
+<member name="M:Aioi.NfcAdapter.GetIdm">
+ <summary>
+ gets idm
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Aioi.NfcAdapter.CloseCard">
+ <summary>
+ close touched smart tag
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Aioi.NfcAdapter.Write(System.Byte[],System.Byte[])">
+ <summary>
+ writes smart tage command
+ </summary>
+ <param name="idm"></param>
+ <param name="command"></param>
+</member>
+<member name="M:Aioi.NfcAdapter.Read(System.Byte[],System.Int32)">
+ <summary>
+ read smart tag command
+ </summary>
+ <param name="idm"></param>
+ <param name="blocks"></param>
+ <returns></returns>
+</member>
+<member name="M:Aioi.NfcAdapter.OpenAdapter">
+ <summary>
+ not implemented
+ </summary>
+</member>
+<member name="M:Aioi.NfcAdapter.CloseAdapter">
+ <summary>
+ not implemented
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Aioi.PCSCModules.GetContext(System.Int32@)">
+ <summary>
+ returns pc/sc context
+ </summary>
+ <param name="context"></param>
+ <returns></returns>
+</member>
+<member name="M:Aioi.PCSCModules.GetAdapters(System.Int32)">
+ <summary>
+ returns device name list
+ </summary>
+ <param name="context"></param>
+ <returns></returns>
+</member>
+<member name="M:Aioi.PCSCModules.ReleaseContext(System.Int32)">
+ <summary>
+ Releases the context.
+ </summary>
+</member>
+<member name="E:Aioi.SmartTag.ShowMessage">
+ <summary>
+ log event to write to form
+ </summary>
+ <param name="sender"></param>
+ <param name="args"></param>
+</member>
+<member name="M:Aioi.SmartTag.IsSmartTag(System.Byte[])">
+ <summary>
+ Indicates whether the smart-tag.
+ </summary>
+ <param name="idm"></param>
+ <returns>True if the IDm is the smart-tag; otherwise, false.</returns>
+</member>
+<member name="M:Aioi.SmartTag.StartProcess">
+ <summary>
+ Starts the smart-tag process.
+ </summary>
+</member>
+<member name="M:Aioi.SmartTag.WaitForIdle">
+ <summary>
+ Waits until smart-tag can do a next task.
+ </summary>
+</member>
+<member name="M:Aioi.SmartTag.CheckStatus">
+ <summary>
+ Confirms the smart-tag status.
+ </summary>
+</member>
+<member name="M:Aioi.SmartTag.SendCommand(System.Byte[])">
+ <summary>
+ Sends a command to the smart-tag.
+ </summary>
+ <param name="command"></param>
+</member>
+<member name="M:Aioi.SmartTag.SendCommand(System.Byte[],System.Byte[])">
+ <summary>
+ Sends a command to the smart-tag.
+ </summary>
+ <param name="command"></param>
+</member>
+<member name="M:Aioi.SmartTag.ReadData(System.Int32)">
+ <summary>
+ Reads a command from the smart-tag.
+ </summary>
+</member>
+<member name="M:Aioi.SmartTag.ReadData(System.Int32,System.Byte[])">
+ <summary>
+ Reads a command from the smart-tag.
+ </summary>
+</member>
+<member name="M:Aioi.SmartTag.ShowImage(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32,System.Byte,System.Byte)">
+ <summary>
+ Displays an image.
+ </summary>
+ <param name="imageData"></param>
+</member>
+<member name="M:Aioi.SmartTag.ClearDisplay">
+ <summary>
+ Clears the display.
+ </summary>
+</member>
+<member name="M:Aioi.SmartTag.WriteUserData(System.Int32,System.Byte[])">
+ <summary>
+ Writes the user data to the free information area on the smart-tag.
+ Divides and sends the command into some frames if necessary.
+ </summary>
+</member>
+<member name="M:Aioi.SmartTag.WriteUserDataByFrame(System.Int32,System.Byte[])">
+ <summary>
+ Writes the user data up to 512-bytes.
+ </summary>
+</member>
+<member name="M:Aioi.SmartTag.ReadUserData(System.Int32,System.Int32)">
+ <summary>
+ Reads the user data in the free information area on the smart-tag.
+ </summary>
+</member>
+<member name="M:Aioi.SmartTag.ReadUserDataByBlock(System.Int32,System.Int32)">
+ <summary>
+ Reads the user data in the free information area on the smart-tag.
+ (Maximum concurrent transfer block number below)
+ </summary>
+</member>
+<member name="M:Aioi.SmartTag.ConvertTo3Bytes(System.Int32,System.Int32)">
+ <summary>
+ Converts two 12-bit numbers to the 3-bytes array.
+ </summary>
+</member>
+</members>
+</doc>
